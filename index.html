@@ -197,6 +197,8 @@
                         <!-- to get an API token!-->
                         <form id="contactForm" action="https://formsubmit.co/2e2d3f8286f8ec2fd8af63067540f27a" method="POST">
                             <!-- Name input-->
+                            <input type="hidden" name="_captcha" value="true">
+                             <input type="hidden" name="_template" value="table">
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Full name</label>
